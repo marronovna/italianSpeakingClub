@@ -184,7 +184,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align: start;
     max-width: 250px;
     font-size: 17px;
     color: rgba(159, 149, 137, 0.965);
