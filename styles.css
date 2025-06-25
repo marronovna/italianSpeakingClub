@@ -152,6 +152,23 @@ h2 {
   }
 }
 
+.zoom-button {
+  background-color: #007bff; /* Example primary color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.zoom-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
 
 
 @media screen and (max-width: 600px) {
