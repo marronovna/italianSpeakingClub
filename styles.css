@@ -98,6 +98,8 @@ h2 {
   justify-content: center;
   color: #847c72;
   gap: 10px;
+  border-top: 5px;
+  border-bottom: 5px;
 }
 
 .gallery-container {
