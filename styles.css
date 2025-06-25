@@ -160,6 +160,10 @@ h2 {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 1200px) {
   .container_pm {
