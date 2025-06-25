@@ -140,6 +140,24 @@ h2 {
   transition: 0.5s;
 }
 
+.zoom-button {
+  background-color: #2D8CFF; /* Zoom blue */
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: background-color 0.8s ease, box-shadow 0.8s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.zoom-button:hover {
+  background-color: #1A73E8; /* Slightly darker blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.8s ease, box-shadow 0.8s ease;
+}
+
 
 @media screen and (max-width: 1200px) {
   .container_pm {
@@ -152,24 +170,6 @@ h2 {
   }
 }
 
-.zoom-button {
-  background-color: #2D8CFF; /* Zoom blue */
-  color: #ffffff;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 24px;
-  font-size: 16px;
-  font-weight: 500;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  cursor: pointer;
-  transition: background-color 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.zoom-button:hover {
-  background-color: #1A73E8; /* Slightly darker blue on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
 
 
 
