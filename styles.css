@@ -16,6 +16,9 @@ body {
   user-select: none;
 }
 
+header {
+  background-color: #020414; 
+}
 
 footer {
   display: flex;
