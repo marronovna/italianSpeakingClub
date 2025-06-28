@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 
 
+html {
+  background-color: #020414; 
+}
+
 body {
   font-family: 'Comfortaa', cursive;
   font-size: 21px;
