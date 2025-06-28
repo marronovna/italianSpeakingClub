@@ -13,7 +13,6 @@ body {
   background-image: url(img/IMG_BG.PNG);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  user-select: none;
 }
 
 header {
