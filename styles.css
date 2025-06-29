@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 
 
-html {
-  background-color: #020414 !important; 
-}
-
 body {
   font-family: 'Comfortaa', cursive;
-  background-color: #020414 !important; 
+  background-color: #020414; 
   font-size: 21px;
   user-select: text;
   background-image: url(img/IMG_BG.PNG);
