@@ -132,7 +132,7 @@ h2 {
   max-width: 100%;
   max-height: 250px;
   border-radius: 15px;
-/*   box-shadow: 0 0 20px #181616; */
+  box-shadow: 0 0 20px #181616;
   transition: 0.6s;
 }
 
