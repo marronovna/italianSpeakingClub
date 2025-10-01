@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Comfortaa', cursive;
-  background-color: #020414; 
+  background-color: #020414;
   font-size: 21px;
   user-select: text;
   background-image: url(img/IMG_BG.PNG);
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #020414; 
+  background-color: #020414;
 }
 
 footer {
@@ -20,7 +20,7 @@ footer {
   gap: 15px;
   align-items: center;
   justify-content: center;
-  background-color: #020414; 
+  background-color: #020414;
 }
 
 .icon img {
@@ -33,7 +33,7 @@ footer {
   justify-self: center;
   align-self: center;
   gap: 8px;
-  background-color: #020414; 
+  background-color: #020414;
   max-width: 60%;
   height: 100%;
   padding: 40px;
@@ -145,11 +145,11 @@ h2 {
 }
 
 .zoom-button {
-  background-color: #2D8CFF; /* Zoom blue */
+  background-color: #2D8CFF;
+  /* Zoom blue */
   color: #ffffff;
   border: none;
   font-weight: 600;
-  text-decoration: none;
   border-radius: 25px;
   padding: 10px 24px;
   cursor: pointer;
@@ -158,18 +158,96 @@ h2 {
 }
 
 .zoom-button:hover {
-  background-color: #1A73E8; /* Slightly darker blue on hover */
+  color: #ffffff;
+  background-color: #145ab6;
+  /* Slightly darker blue on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   transition: background-color 0.8s ease, box-shadow 0.8s ease;
+}
+
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
 }
-a:hover {
-  text-decoration: none;
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
 }
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  display: flex;
+  gap: 10px;
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff9f9;
+  border-radius: 25px;
+  max-width: 450px;
+  max-height: 800px;
+  position: relative;
+  transition: all 5s ease-in-out;
+  box-shadow: 0 0 1px #fff,
+    0 0 3px #fff,
+    0 0 0px #eccdcd,
+    0 0 50px #c09393
+}
+
+
+.popup_content div {
+  padding: 13px 0px;
+}
+
+.topic_name {
+  padding: 5px;
+  font-weight: 900;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff7873;
+}
+
+.popup .close:hover {
+  color: #98e3ca;
+}
+
 
 @media screen and (max-width: 1200px) {
   .container_pm {
@@ -248,7 +326,14 @@ a:hover {
     width: 100%;
   }
 
+  .popup {
+    margin: 15% auto;
+    max-width: 100%;
+  }
+
 }
+
+
 
 body::-webkit-scrollbar {
   width: 0.4em;
